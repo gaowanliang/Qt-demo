@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>livingroom</class>
+ <widget class="QWidget" name="livingroom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1096</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QProgressBar {   
+  background-color: #FFFFFF;
+}</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>195</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/chuanglianyoukai.png</normaloff>:/myimgs/images/chuanglianyoukai.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/chuanglianyouguan.png</normaloff>:/myimgs/images/chuanglianyouguan.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/chuanglianzuokai.png</normaloff>:/myimgs/images/chuanglianzuokai.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/chuanglianzuoguan.png</normaloff>:/myimgs/images/chuanglianzuoguan.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/dakaibaojingqi.png</normaloff>:/myimgs/images/dakaibaojingqi.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>60</y>
+     <width>195</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/dengyi.png</normaloff>:/myimgs/images/dengyi.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/denger.png</normaloff>:/myimgs/images/denger.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/dengsan.png</normaloff>:/myimgs/images/dengsan.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/dengsi.png</normaloff>:/myimgs/images/dengsi.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/guanbibaojingqi.png</normaloff>:/myimgs/images/guanbibaojingqi.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>180</width>
+        <height>68</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>510</y>
+     <width>360</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="myimgs.qrc">:/myimgs/images/kongtiaoyi.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>510</y>
+     <width>360</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="myimgs.qrc">:/myimgs/images/kongtiaoer.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>510</y>
+     <width>142</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="myimgs.qrc">:/myimgs/images/jiankonganniubeijing.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_19">
+   <property name="geometry">
+    <rect>
+     <x>532</x>
+     <y>620</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="myimgs.qrc">
+     <normaloff>:/myimgs/images/down.png</normaloff>:/myimgs/images/down.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_20">
+   <property name="geometry">
+    <rect>
+     <x>532</x>
+     <y>525</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="myimgs.qrc">
+     <normaloff>:/myimgs/images/up.png</normaloff>:/myimgs/images/up.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_21">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>578</y>
+     <width>22</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="myimgs.qrc">
+     <normaloff>:/myimgs/images/left.png</normaloff>:/myimgs/images/left.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_22">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>578</y>
+     <width>22</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="myimgs.qrc">
+     <normaloff>:/myimgs/images/right.png</normaloff>:/myimgs/images/right.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>520</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="value" stdset="0">
+    <double>26.500000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>520</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="value" stdset="0">
+    <double>25.500000000000000</double>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>590</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/shengwen.png</normaloff>:/myimgs/images/shengwen.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/off.png</normaloff>:/myimgs/images/off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/jiangwen.png</normaloff>:/myimgs/images/jiangwen.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>590</y>
+     <width>143</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/shengwen.png</normaloff>:/myimgs/images/shengwen.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/off.png</normaloff>:/myimgs/images/off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="myimgs.qrc">
+        <normaloff>:/myimgs/images/jiangwen.png</normaloff>:/myimgs/images/jiangwen.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F0F0F0;</string>
+   </property>
+   <property name="value">
+    <number>60</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="format">
+    <string>温度 %p</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="invertedAppearance">
+    <bool>true</bool>
+   </property>
+   <property name="format">
+    <string>湿度 %p%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>660</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>481</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5"/>
+  </widget>
+  <widget class="QPushButton" name="gobackPushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>667</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="myimgs.qrc">
+     <normaloff>:/myimgs/images/back2.png</normaloff>:/myimgs/images/back2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>410</y>
+     <width>341</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="value" stdset="0">
+    <double>11.000000000000000</double>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="myimgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

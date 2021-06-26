@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/myimgs">
+        <file>d8.ico</file>
+        <file>images/keting.png</file>
+        <file>images/cheku.png</file>
+        <file>images/chufang.png</file>
+        <file>images/dixiashi.png</file>
+        <file>images/waidamen.png</file>
+        <file>images/waijing.png</file>
+        <file>images/woshier.png</file>
+        <file>images/woshisan.png</file>
+        <file>images/woshiyi.png</file>
+        <file>images/bg.png</file>
+        <file>images/goback.png</file>
+        <file>images/bg.jpg</file>
+        <file>images/ceshineirong.jpg</file>
+        <file>images/chuanglianyouguan.png</file>
+        <file>images/chuanglianyoukai.png</file>
+        <file>images/chuanglianyouuguan.png</file>
+        <file>images/chuanglianzuoguan.png</file>
+        <file>images/chuanglianzuokai.png</file>
+        <file>images/dakaibaojingqi.png</file>
+        <file>images/denger.png</file>
+        <file>images/dengluanniu.png</file>
+        <file>images/denglubeijing.png</file>
+        <file>images/dengsan.png</file>
+        <file>images/dengsi.png</file>
+        <file>images/dengyi.png</file>
+        <file>images/down.png</file>
+        <file>images/guanbibaojingqi.png</file>
+        <file>images/jiangwen.png</file>
+        <file>images/jiankonganniubeijing.png</file>
+        <file>images/jianpanbeijing.png</file>
+        <file>images/jizhumima.png</file>
+        <file>images/kongtiaoer.png</file>
+        <file>images/kongtiaoyi.png</file>
+        <file>images/left.png</file>
+        <file>images/mima.png</file>
+        <file>images/off.png</file>
+        <file>images/qianrushitiankong.png</file>
+        <file>images/right.png</file>
+        <file>images/shengwen.png</file>
+        <file>images/up.png</file>
+        <file>images/back2.png</file>
+    </qresource>
+</RCC>
